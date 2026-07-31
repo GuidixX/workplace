@@ -19,8 +19,8 @@ fi
 
 # Step 2: Download MIUI Firmware
 
-FIRMWARE_URL="https://bn.d.miui.com/OS1.0.4.0.UMGMIXM/topaz_global_images_OS1.0.4.0.UMGMIXM_20240131.0000.00_14.0_global_5580c60467.tgz"
-FIRMWARE_FILE="topaz_global_images_OS1.0.4.0.UMGMIXM_20240131.0000.00_14.0_global_5580c60467.tgz"
+FIRMWARE_URL="https://bn.d.miui.com/OS1.0.11.0.TGKMIXM/spesn_global_images_OS1.0.11.0.TGKMIXM_20250417.0000.00_13.0_global_3a948ed413.tgz"
+FIRMWARE_FILE="spesn_global_images_OS1.0.11.0.TGKMIXM_20250417.0000.00_13.0_global_3a948ed413.tgz"
 
 echo "Downloading MIUI firmware..."
 if [ -f "$FIRMWARE_FILE" ]; then
