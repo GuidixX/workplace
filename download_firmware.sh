@@ -19,8 +19,8 @@ fi
 
 # Step 2: Download MIUI Firmware
 
-FIRMWARE_URL="https://bigota.d.miui.com/OS3.0.303.0.WNPMIXM/peridot_global_images_OS3.0.303.0.WNPMIXM_20260717.0000.00_16.0_global_74a084ca73.tgz"
-FIRMWARE_FILE="peridot_global_images_OS3.0.303.0.WNPMIXM_20260717.0000.00_16.0_global_74a084ca73.tgz"
+FIRMWARE_URL="https://android-builds.fairphone.com/FP6/A16/FP6.QREL.16.100.0.20260727183253_WS1M-factory.zip"
+FIRMWARE_FILE="FP6.QREL.16.100.0.20260727183253_WS1M-factory.zip"
 
 echo "Downloading MIUI firmware..."
 if [ -f "$FIRMWARE_FILE" ]; then
